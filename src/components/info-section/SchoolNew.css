@@ -1,0 +1,26 @@
+.SchoolNew{
+	width: 100%;
+	height: 100%;
+	background: rgba(163, 167, 179, 0.82);
+	border-radius: 21px;
+	display: inline-block;
+	margin-left: 1em;
+	word-break: break-all;
+}
+.SchoolNew-inner{
+	width: 85%;
+	margin: 0 auto;
+}
+.SchoolNew h3{
+	width: 100%;
+	text-align: center;
+	color: #353232;
+}
+.SchoolNew a{
+	margin-right: 2em;
+	margin-left: 2em;
+	text-decoration: none;
+	/*color: white;*/
+	color: #353232;
+	font-size: 20px;
+}

@@ -1,5 +1,5 @@
 .InfoSection{
-    height: 350px;
+    height: 300px;
     width: 90%;
     margin: 0 auto;
     position: relative;
@@ -34,65 +34,57 @@
 
 
 .list-vertical{
-	width: 10%;
-	position: absolute;
-	height: 250px;
+	width: 100%;
+
 }
 .list-vertical-li{
 	background: rgba(163, 167, 179, 0.82);
 	text-align: center;
 	list-style: none;
-	height: 25%;
-	margin-bottom: 10px;
+	width: auto;
+	margin-bottom: 1.2em;
 	border-radius: 21px;
 }
 .list-vertical-li a{
 	color: white;
 	text-decoration: none;
-	line-height: 60px;
+	line-height: 38px;
+	width: 100%;
+	margin-right: 1em;
+	margin-left: 1em;
 }
 
 
-.img-school{
-	width: 21%;
-	height: 250px;
-	position: absolute;
-	left: 13%;
-	background: rgba(163, 167, 179, 0.82);
-	border-radius: 21px;
-}
-.img-school .port{
-	width: 60%;
-	padding: 0;
+
+
+
+
+
+.ListFooter{
+	width: 100%;
+	height: 200px;
 	margin: 0 auto;
-	text-align: center;
 }
-.img-school .port i{
-	font-weight: 800;
-	color: white;
-}
-.img-school li{
-	list-style: none;
-	padding: 0;
+.ListFooter>ul{
 	margin: 0;
-	display: inline-block;
+	padding: 0;
+	width: 100%;
 }
-.img-school img{
-	width: 180px;
+.ListFooter>ul>li{
+	list-style: none;
+	float: left;
+	height: 200px;
+	margin-right: 10px;
 }
-.img-school button{
-	width: 30px;
-	background: rgba(255, 255, 255, 0);
-	border: none;
-	color: white;
-	font-size: 1.5em;
-	position: absolute;
+#ListFooter-first-li{
+	width: 15%;
 }
-#img-school-left{
-	left: 1px;
-	top: 40%;
+#ListFooter-second-li{
+	width: 25%;
 }
-#img-school-right{
-	right: 1px;
-	top: 40%;
+#ListFooter-thrid-li{
+	width: 25%;
+}
+#ListFooter-fourth-li{
+	width: 15%;
 }

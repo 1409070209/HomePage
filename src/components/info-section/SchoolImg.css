@@ -1,0 +1,43 @@
+
+.img-school{
+	width: 21%;
+	height: 250px;
+	left: 13%;
+	background: rgba(163, 167, 179, 0.82);
+	border-radius: 21px;
+}
+.img-school .port{
+	width: 60%;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.img-school .port i{
+	font-weight: 800;
+	color: white;
+}
+.img-school li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+.img-school img{
+	width: 180px;
+}
+.img-school button{
+	width: 30px;
+	background: rgba(255, 255, 255, 0);
+	border: none;
+	color: white;
+	font-size: 1.5em;
+	position: absolute;
+}
+#img-school-left{
+	left: 1px;
+	top: 40%;
+}
+#img-school-right{
+	right: 1px;
+	top: 40%;
+}
